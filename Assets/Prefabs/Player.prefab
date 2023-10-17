@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 104035258619596707}
   - component: {fileID: 104035258619596704}
   - component: {fileID: 104035258619596705}
+  - component: {fileID: 2607830017590937406}
+  - component: {fileID: 2377781791721088704}
+  - component: {fileID: 3027505539769093238}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -105,3 +108,43 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2607830017590937406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104035258619596710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a1b7099e4444343bee2ed39801a472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 2377781791721088704}
+  playerDashing: {fileID: 0}
+--- !u!114 &2377781791721088704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104035258619596710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15233e26fbd568b47a4c9ed096fdf7cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  accelarateRate: 0
+--- !u!114 &3027505539769093238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104035258619596710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e62c2ef0a308444918a0f2d5f81e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
