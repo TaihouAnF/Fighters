@@ -148,3 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e62c2ef0a308444918a0f2d5f81e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInputManager: {fileID: 2607830017590937406}
+  playerMovement: {fileID: 2377781791721088704}
+  dashSpeed: 10
+  cooldown: 2
+  dashTime: 0.25
