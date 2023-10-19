@@ -67,10 +67,10 @@ public class PlayerDashing : MonoBehaviour
     IEnumerator Dash()
     {
         lastSpeed = playerMovement.moveSpeed;
+        playerMovement.moveSpeed = dashSpeed;
         // Dashing
         while (dashTimeCounter < dashTime)
         {
-            playerMovement.moveSpeed = dashSpeed;
             dashTimeCounter += Time.deltaTime;
             yield return null;
         }
